@@ -14,8 +14,8 @@ import java.util.Collection;
 @RestController()
 public class PatientController {
 
-    private final Logger logger= LoggerFactory.getLogger (PatientController.class);
     private final PatientService patientService;
+    private final Logger logger= LoggerFactory.getLogger (PatientController.class);
 
     public PatientController(PatientService patientService) {
         this.patientService = patientService;
@@ -23,7 +23,7 @@ public class PatientController {
 
     @GetMapping("{id}")
     public PatientDto findOne(@PathVariable("id") long id) {
-        this.logger.debug ("Getting Patient {}",id);
+        this.logger.debug ("Getting patient {}",id);
         return this.patientService.findOne (id);
     }
 
@@ -35,20 +35,20 @@ public class PatientController {
 
     @PostMapping
     public PatientDto add(@Valid @RequestBody PatientDto patientDto){
-        this.logger.debug ("Adding new Patient {}",patientDto);
+        this.logger.debug ("Adding new patient {}",patientDto);
         return this.patientService.save (patientDto);
     }
 
     @PutMapping
     public PatientDto update(@Valid @RequestBody PatientDto patientDto){
-        this.logger.debug ("Updating Patient {} with {}",patientDto.getId (),patientDto);
+        this.logger.debug ("Updating patient {} with {}",patientDto.getId (),patientDto);
         return this.patientService.save (patientDto);
 
     }
 
     @DeleteMapping("{id}")
     public void delete(@PathVariable("id") long id){
-        this.logger.debug ("Deleting Patient {}",id);
+        this.logger.debug ("Deleting patient {}",id);
         this.patientService.deleteById (id);
     }
 }

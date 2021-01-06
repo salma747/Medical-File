@@ -15,8 +15,8 @@ import java.util.Collection;
 @RestController()
 public class TreatmentController {
 
-    private final Logger logger = LoggerFactory.getLogger (TreatmentController.class);
     private final TreatmentService treatmentService;
+    private final Logger logger = LoggerFactory.getLogger (TreatmentController.class);
 
     public TreatmentController(TreatmentService treatmentService) {
         this.treatmentService = treatmentService;

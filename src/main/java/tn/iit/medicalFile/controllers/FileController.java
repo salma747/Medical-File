@@ -17,9 +17,9 @@ import java.util.Collection;
 @RestController()
 public class FileController {
 
-    private final Logger logger= LoggerFactory.getLogger (FileController.class);
     private final FileService fileService;
     private final PatientService patientService;
+    private final Logger logger= LoggerFactory.getLogger (FileController.class);
 
     public FileController(FileService fileService, PatientService patientService) {
         this.fileService = fileService;
@@ -57,3 +57,4 @@ public class FileController {
         this.fileService.deleteById (id);
     }
 }
+
