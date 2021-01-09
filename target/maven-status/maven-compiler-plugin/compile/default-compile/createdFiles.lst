@@ -1,0 +1,5 @@
+tn\iit\medicalFile\errors\ErrorMF.class
+tn\iit\medicalFile\errors\ExceptionTranslator.class
+tn\iit\medicalFile\config\SwaggerConfig.class
+tn\iit\medicalFile\errors\MethodArgumentNotValidException.class
+tn\iit\medicalFile\errors\ResourceNotFoundException.class
