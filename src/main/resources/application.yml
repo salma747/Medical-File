@@ -1,11 +1,11 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/medical-file?serverTimezone=UTC
+    url: jdbc:mysql://medicalfilemysql:3306/medicalfile?serverTimezone=UTC
     username: root
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
     properties:
       hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
     show-sql: true

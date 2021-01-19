@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9f48e6fd-bb5b-4df2-8d22-77dfd5867ba0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/iit/medicalFile/controllers/FileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/iit/medicalFile/controllers/FileController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/iit/medicalFile/controllers/PatientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/iit/medicalFile/controllers/PatientController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/iit/medicalFile/controllers/TreatmentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/iit/medicalFile/controllers/TreatmentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/iit/medicalFile/utils/Links.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/iit/medicalFile/utils/Links.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/iit/medicalFile/services/StoreManagementClientService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/iit/medicalFile/services/StoreManagementClientService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/iit/medicalFile/utils/Links.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/iit/medicalFile/utils/Links.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/medical-file-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/medical-file-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/medical-file-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/medical-file-1.0-SNAPSHOT.jar.original" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,18 +32,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1mKldksZsDmWJLVWJUPLgfdQ46U" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -42,9 +44,11 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/tn/iit/medicalFile" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../revision-j2ee-EntityManager" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -72,6 +76,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -86,57 +91,13 @@
       <workItem from="1609798033220" duration="10593000" />
       <workItem from="1609847774891" duration="599000" />
       <workItem from="1609849899564" duration="7528000" />
-      <workItem from="1610211901154" duration="672000" />
+      <workItem from="1610211901154" duration="1274000" />
+      <workItem from="1611004703970" duration="8353000" />
+      <workItem from="1611080579662" duration="594000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1609882295774">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1609882295774" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1610112494587">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610112494587" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1610112494587">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610112494587" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1610112494587">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610112494587" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1610112494587">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610112494587" />
-    <state width="1493" height="210" key="GridCell.Tab.1.bottom" timestamp="1610112494588">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610112494588" />
-    <state width="1493" height="210" key="GridCell.Tab.1.center" timestamp="1610112494587">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1610112494587" />
-    <state width="1493" height="210" key="GridCell.Tab.1.left" timestamp="1610112494587">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1610112494587" />
-    <state width="1493" height="210" key="GridCell.Tab.1.right" timestamp="1610112494587">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1610112494587" />
-    <state x="310" y="88" key="Maven.ArtifactSearchDialog" timestamp="1609859686503">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="310" y="88" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1609859686503" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1609859599829">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1609859599829" />
+    <option name="version" value="3" />
   </component>
 </project>
