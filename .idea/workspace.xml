@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f48e6fd-bb5b-4df2-8d22-77dfd5867ba0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/iit/medicalFile/utils/Links.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/iit/medicalFile/utils/Links.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/iit/medicalFile/services/StoreManagementClientService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/iit/medicalFile/services/StoreManagementClientService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/iit/medicalFile/utils/Links.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/iit/medicalFile/utils/Links.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/medical-file-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/medical-file-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/medical-file-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/medical-file-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +59,17 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MedicalFileApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="medical-file" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="tn.iit.medicalFile.MedicalFileApplication" />
@@ -93,7 +95,7 @@
       <workItem from="1609849899564" duration="7528000" />
       <workItem from="1610211901154" duration="1274000" />
       <workItem from="1611004703970" duration="8353000" />
-      <workItem from="1611080579662" duration="594000" />
+      <workItem from="1611080579662" duration="2411000" />
     </task>
     <servers />
   </component>
